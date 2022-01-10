@@ -19,7 +19,7 @@ export function generatLsteDeCours() {
     espaceText.setAttribute("id", "myText");
     espaceText.setAttribute("placeholder", "Title...");
     let boutAddList = document.createElement("span");
-    boutAddList.setAttribute("onclick", "newElemList()");
+    boutAddList.setAttribute("id", "new");
     boutAddList.setAttribute("class", "addBtn");
     boutAddList.innerHTML = "Add"
 
@@ -39,6 +39,8 @@ generatLsteDeCours();
 
 //NOUVEL ELEMENT DE LIST***************
 export function newElemList() {
+    let butList = document.querySelector("#new");
+    butList.addEventListener("click", function(){
     let newLi = document.createElement("li");
     newLi.setAttribute("class", "nli");
     let inputText = document.getElementById("myText").value;
@@ -79,8 +81,10 @@ export function newElemList() {
             petitV.target.classList.toggle("checked");
         }
     }, false);
-
+})
 }
+newElemList()
+
 
 export const sectionList = document.querySelector(".list");
 
