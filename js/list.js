@@ -58,7 +58,7 @@ export function newElemList() {
 
 
     let nodeList = document.getElementsByClassName("nli");
-    for (i = 0; i < nodeList.length; i++) {
+    for (let i = 0; i < nodeList.length; i++) {
         let span = document.createElement("SPAN");
         let croi = document.createTextNode("\u00D7");
         span.className = "close";
