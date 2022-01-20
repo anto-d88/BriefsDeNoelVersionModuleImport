@@ -71,7 +71,7 @@ export function newElemList() {
     for (let j = 0; j < close.length; j++) {
         close[j].onclick = function () {
             let parents = this.parentElement;
-            parents.style.display = "none";
+            parents.remove();
         }
     }
     //SYMBOLE V POUR ELEMENT COCHER**************
