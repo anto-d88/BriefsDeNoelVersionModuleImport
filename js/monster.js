@@ -89,12 +89,17 @@ let soigner = document.querySelector("#soin");
     document.querySelector("#dem").style.display = "none";
     document.querySelector(".butJeu").style.display = "flex";
     demarrage();
-    newElemLogD();
+    delet();
 
     document.querySelector("#attSpec").disabled = false;
     document.querySelector("#attNorm").disabled = false;
     document.querySelector("#soin").disabled = false;
 })
+function delet(){
+    while (listLog.firstChild) {
+        listLog.removeChild(listLog.lastChild);
+    }newElemLogD(); 
+}
 
 abandonne.addEventListener("click", function () {
     document.querySelector(".butJeu").style.display = "none";
