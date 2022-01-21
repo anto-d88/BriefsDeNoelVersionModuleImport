@@ -15,8 +15,11 @@ import { keeperF } from "./keeper.js";
 
 import { generatMonster } from "./monster.js";
 
+import { generatCalandar } from "./calandar.js";
+import { calendar } from "./calandar.js";
 
 import { sectionCarousel } from "./Carousel.js";
 import { sectionList } from "./list.js";
 import { sectionKeep } from "./keeper.js";
 import { sectionMonster } from "./monster.js";
+import { sectionCalandar } from "./calandar.js";

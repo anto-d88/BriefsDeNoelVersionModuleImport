@@ -78,5 +78,7 @@ sectionCarousel.onclick = function () {
     document.querySelector(".li").style.display = "none"
     document.querySelector(".ke").style.display = "none"
     document.querySelector(".mo").style.display = "none"
+    document.querySelector("#contcalendar").style.display = "none";
+
     sectCar.style.display = "flex";
 }

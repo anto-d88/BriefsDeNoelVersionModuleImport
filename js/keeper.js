@@ -156,5 +156,6 @@ sectionKeep.onclick = function () {
     document.querySelector(".car").style.display = "none";
     document.querySelector(".li").style.display = "none";
     document.querySelector(".mo").style.display = "none";
+    document.querySelector("#contcalendar").style.display = "none";
     sectKeep.style.display = "block";
 }

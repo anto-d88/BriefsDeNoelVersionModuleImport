@@ -336,6 +336,8 @@ sectionMonster.onclick = function () {
     document.querySelector(".car").style.display = "none";
     document.querySelector(".li").style.display = "none";
     document.querySelector(".ke").style.display = "none";
+    document.querySelector("#contcalendar").style.display = "none";
+
     sectMonster.style.display = "block";
 }
 

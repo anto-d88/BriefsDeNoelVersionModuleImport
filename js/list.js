@@ -94,5 +94,7 @@ sectionList.onclick = function () {
     document.querySelector(".car").style.display = "none";
     document.querySelector(".ke").style.display = "none";
     document.querySelector(".mo").style.display = "none";
+    document.querySelector("#contcalendar").style.display = "none";
+
     sectLi.style.display = "block";
 }
